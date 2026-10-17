@@ -464,7 +464,8 @@
     driverOffset.applyQuaternion(player.quaternion);
     camera.position.copy(player.position).add(driverOffset);
 
-    const forwardTarget = new THREE.Vector3(0, 1.1, 40);
+    // توجيه الكاميرا للأمام مباشرة في نفس خط الرؤية بدون أي ميل جانبي
+    const forwardTarget = new THREE.Vector3(-0.35, 1.15, 40);
     forwardTarget.applyQuaternion(player.quaternion);
     forwardTarget.add(player.position);
     camera.lookAt(forwardTarget);

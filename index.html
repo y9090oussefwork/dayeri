@@ -40229,8 +40229,8 @@
     });
     let HS = 0;
     const jS = {
-      pan: 5.4,
-      side: 1.2,
+      pan: 0,
+      side: 0,
       tin: .8,
       tout: 1.1
     };
@@ -40241,8 +40241,8 @@
       NS = 0,
       IS = 0;
     const WS = {
-      pan: 3.1,
-      side: .8,
+      pan: 0,
+      side: 0,
       m0: -2,
       xr: .57
     };
@@ -40320,10 +40320,10 @@
       const e = Xr / D(xr.max),
         n = Xr / D(1) / mT.ref,
         o = $M(),
-        a = .88 * Jr,
+        a = Jr,
         i = (il > 0 ? (Math.random() - .5) * il * .05 : 0) + (yl && !fr ? pT(n, o) * (xr.calm || 1) : 0),
         s = ST();
-      if (fc(Ur - s.back, a + $S, s.up + .2 * fl + i - KP(), W_), hc(Ur + s.ahead, .72 * Jr + HS, s.look - .35 * fl,
+      if (fc(Ur - s.back, a, s.up + .2 * fl + i - KP(), W_), hc(Ur + s.ahead, Jr, s.look - .35 * fl,
           G_), function(t, e) {
           const n = So;
           if (n.t >= n.d) return;
@@ -40354,7 +40354,7 @@
           return ze(Pt.vehicle) ? XM && yl ? (tE < 0 && (tE = n), tE) : tE >= 0 ? (tE += (n - tE) * Math.min(1,
             2.5 * e), Math.abs(n - tE) < .003 && (tE = -1), tE < 0 ? n : tE) : n : (tE = -1, n)
         }(n, t) * mT.fov + GM.fov * o * JM * (ze(Pt.vehicle) ? 0 : 1) + i_.fov * s_.k)), Fc.updateProjectionMatrix(),
-        Fc.rotateZ(.012 * Yr), gT = s.back, bT = a + $S, yT = .5 * Bc / Math.tan(Fc.fov * Math.PI / 360), Cg) {
+        Fc.rotateZ(0), gT = s.back, bT = a, yT = .5 * Bc / Math.tan(Fc.fov * Math.PI / 360), Cg) {
         const n = xr.w * ("trela" === Pt.vehicle ? .85 : 1),
           o = yl || !!Vv,
           a = ru(Pt.vehicle),
