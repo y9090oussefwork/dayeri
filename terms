@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#14161c">
+<title>شروط الاستخدام · ع الدائري</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="vendor/fonts.css">
+<style>
+  :root{
+    --asphalt:#14161c; --panel:#0e1014; --panel-2:#181b22; --line:#2b2f38;
+    --paint:#ffd21f; --ink:#f4efe4; --ink-dim:#a29d92;
+    --disp:"Baloo Bhaijaan 2","Tahoma",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--asphalt);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;
+    line-height:1.7;
+    -webkit-text-size-adjust:100%;
+  }
+  [hidden]{display:none!important}
+  .wrap{max-width:720px;margin:0 auto;padding:20px 18px 60px}
+  header{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    padding:14px 0 18px;border-bottom:2px solid var(--line);margin-bottom:22px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;min-width:0}
+  .brand b{
+    font-family:var(--disp);font-weight:800;color:var(--paint);
+    font-size:1.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .toggle{
+    flex:none;appearance:none;border:1px solid var(--line);background:var(--panel-2);
+    color:var(--ink);font-family:inherit;font-size:.82rem;font-weight:600;
+    padding:8px 14px;border-radius:999px;cursor:pointer;
+  }
+  .toggle:hover{border-color:var(--paint)}
+  .toggle:active{transform:translateY(1px)}
+  h1{
+    font-family:var(--disp);font-weight:800;color:var(--paint);
+    font-size:1.5rem;margin:0 0 4px;line-height:1.35;
+  }
+  .meta{color:var(--ink-dim);font-size:.85rem;margin:0 0 26px}
+  h2{
+    font-family:var(--disp);font-weight:700;color:var(--paint);
+    font-size:1.08rem;margin:30px 0 10px;
+  }
+  h2:first-of-type{margin-top:0}
+  p{margin:0 0 12px;font-size:.95rem;color:var(--ink)}
+  ul{margin:0 0 12px;padding-inline-start:22px}
+  li{margin:0 0 6px;font-size:.95rem}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:14px 16px;margin:0 0 14px;
+  }
+  .muted{color:var(--ink-dim);font-size:.85rem}
+  code{
+    background:var(--panel-2);border:1px solid var(--line);border-radius:5px;
+    padding:1px 6px;font-size:.85em;direction:ltr;unicode-bidi:embed;
+  }
+  a{color:var(--paint)}
+  hr{border:none;border-top:1px solid var(--line);margin:26px 0}
+  footer{color:var(--ink-dim);font-size:.8rem;margin-top:30px}
+  footer .foot{display:block;margin-top:8px;line-height:2}
+  [dir="ltr"] ul{padding-inline-start:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand"><b id="brandTitle">ع الدائري</b></div>
+  <button type="button" class="toggle" id="langBtn">English</button>
+</header>
+
+<div id="ar" lang="ar" dir="rtl">
+
+  <h1>شروط الاستخدام</h1>
+  <p class="meta">آخر تحديث: 2 أكتوبر 2026</p>
+
+  <div class="card">
+    <p style="margin:0">«ع الدائري» لعبة من تطوير <b>youssef khalaf</b> في مصر. لما تلعب، إنت موافق على الشروط دي وعلى <a href="privacy.html">سياسة الخصوصية</a>.</p>
+  </div>
+
+  <h2>اللعبة زي ما هي</h2>
+  <p>اللعبة مجانية، وبنقدّمها «زي ما هي» من غير أي ضمان. ممكن نغيّر فيها أو نوقف أجزاء منها في أي وقت. تقدمك محفوظ على جهازك بس، فلو مسحت اللعبة أو بيانات المتصفح ممكن يضيع.</p>
+
+  <h2>عملة اللعبة</h2>
+  <p>عملة اللعبة نقط افتراضية بتكسبها من اللعب، وبتستخدمها جوّه اللعبة بس. <b>مالهاش أي قيمة بفلوس حقيقية</b>، ومبتتصرفش ومبتتحوّلش لفلوس، ومبتتنقلش بين لاعبين.</p>
+
+  <h2>المشتريات والاسترداد</h2>
+  <p>لو فيه مشتريات بفلوس حقيقية، هتبقى عن طريق Google Play بس، والسعر بالجنيه المصري بيبان قدامك قبل الدفع. استرداد الفلوس بيمشي حسب <a href="https://support.google.com/googleplay/answer/2479637" rel="noopener">سياسة استرداد Google Play</a>. أي حاجة بتشتريها بتفضل ليك، حتى لو حدث أو موسم خلص. لو حصلت مشكلة في حاجة اشتريتها، ابعتلنا على <a href="mailto:business@talahy.com">business@talahy.com</a> وهنساعدك.</p>
+
+  <h2>السن</h2>
+  <p>اللعبة معمولة للّي عندهم 13 سنة فأكتر. لو إنت أقل من 18، خلّي ولي أمرك يعرف قبل أي شرا بفلوس حقيقية.</p>
+
+  <h2>الاستخدام السليم</h2>
+  <p>ممنوع تلعب في اللعبة بطريقة غير عادية (تهكير أو غش) أو تستخدمها في حاجة تضر حد. اللعبة خيالية: <b>ماتقلّدش السواقة اللي فيها في الحقيقة</b>، واتّبع قواعد المرور دايمًا.</p>
+
+  <h2>الملكية</h2>
+  <p>الرسومات والأصوات والكود بتوع اللعبة ملك youssef khalaf. المركبات والأماكن مستوحاة من الشارع المصري، ومش تبع أي شركة عربيات أو جهة رسمية، ومفيش واحدة منهم راعية للّعبة.</p>
+
+  <h2>المسؤولية</h2>
+  <p>في حدود اللي القانون يسمح بيه، مش مسؤولين عن أي ضرر غير مباشر من استخدام اللعبة. الشروط دي بتمشي حسب القانون المصري، ومفيش فيها حاجة بتلغي حقوقك كمستهلك.</p>
+
+  <h2>التغييرات والتواصل</h2>
+  <p>لو غيّرنا الشروط هنحدّث التاريخ فوق. أي سؤال: <a href="mailto:business@talahy.com">business@talahy.com</a>.</p>
+
+</div>
+
+<div id="en" lang="en" dir="ltr" hidden>
+
+  <h1>Terms of Use</h1>
+  <p class="meta">Last updated: 2 October 2026</p>
+
+  <div class="card">
+    <p style="margin:0">"On The Ring Road" (ع الدائري) is made by <b>youssef khalaf</b> in Egypt. By playing, you agree to these terms and to our <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <h2>The game as it is</h2>
+  <p>The game is free and provided "as is", without warranties. We may change it or stop parts of it at any time. Your progress is stored only on your device, so deleting the game or your browser data may erase it.</p>
+
+  <h2>In-game currency</h2>
+  <p>The in-game currency is virtual points you earn by playing, for use inside the game only. <b>It has no real-money value</b>, can't be cashed out or exchanged for money, and can't be transferred between players.</p>
+
+  <h2>Purchases and refunds</h2>
+  <p>Any real-money purchases are made only through Google Play, with the price in Egyptian pounds shown before you pay. Refunds follow <a href="https://support.google.com/googleplay/answer/2479637" rel="noopener">Google Play's refund policy</a>. Anything you buy stays yours, even after an event or season ends. If something you bought doesn't work, email <a href="mailto:business@talahy.com">business@talahy.com</a> and we'll help.</p>
+
+  <h2>Age</h2>
+  <p>The game is intended for players aged 13 and over. If you're under 18, involve a parent or guardian before any real-money purchase.</p>
+
+  <h2>Fair use</h2>
+  <p>Don't hack, cheat, or use the game to harm anyone. The game is fiction: <b>don't copy its driving in real life</b> — always follow traffic rules.</p>
+
+  <h2>Ownership</h2>
+  <p>The game's art, sound and code belong to youssef khalaf. Vehicles and places are inspired by Egyptian streets and are not affiliated with, or endorsed by, any car maker or official body.</p>
+
+  <h2>Liability</h2>
+  <p>To the extent the law allows, we aren't liable for indirect damages from using the game. These terms are governed by Egyptian law and don't limit your statutory consumer rights.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If we change these terms, we'll update the date above. Questions: <a href="mailto:business@talahy.com">business@talahy.com</a>.</p>
+
+</div>
+<footer>
+  <span id="footAr">ع الدائري</span>
+  <nav class="foot" lang="ar" dir="rtl"><a href="/">العب</a> · <a href="about.html">عن اللعبة</a> · <a href="howto.html">إزاي تلعب</a> · <a href="contact.html">تواصل معانا</a> · <a href="privacy.html">الخصوصية</a> · <a href="terms.html">الشروط</a></nav>
+</footer>
+
+</div>
+
+<script>(function(){var btn=document.getElementById("langBtn");var ar=document.getElementById("ar");var en=document.getElementById("en");var html=document.documentElement;var brand=document.getElementById("brandTitle");function setLang(isEn){ar.hidden=isEn;en.hidden=!isEn;html.lang=isEn?"en":"ar";html.dir=isEn?"ltr":"rtl";btn.textContent=isEn?"العربية":"English";brand.textContent=isEn?"On The Ring Road":"ع الدائري";try{localStorage.setItem("dayeri.privacyLang",isEn?"en":"ar")}catch(e){}}btn.addEventListener("click",(function(){setLang(en.hidden)}));var saved=null;try{saved=localStorage.getItem("dayeri.privacyLang")}catch(e){}if(saved==="en")setLang(true)})();</script>
+
+</body>
+</html>

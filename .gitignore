@@ -1,0 +1,12 @@
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+.vscode/
+.idea/
+
+# Cloudflare crawler artifacts & backups
+cdn-cgi/
+_test_script.js
+index.original.min.html

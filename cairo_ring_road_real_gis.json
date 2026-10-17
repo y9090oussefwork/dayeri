@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "title": "Cairo Greater Ring Road - Complete 3D Geographic Dataset",
+    "country": "Egypt",
+    "city": "Greater Cairo",
+    "total_length_km": 100.0,
+    "exits_count": 21,
+    "generated_for": "Dayeri 3D Game Engine",
+    "version": "2.0-Enhanced"
+  },
+  "exits": [
+    {
+      "index": 0,
+      "id": "maadi_autostrad",
+      "name_ar": "نزلة الأوتوستراد – المعادي",
+      "name_en": "Autostrad – Maadi Exit",
+      "km": 0.0,
+      "gps": {
+        "lat": 29.9678,
+        "lon": 31.2882
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "المعادي",
+        "صقر قريش",
+        "الأوتوستراد"
+      ]
+    },
+    {
+      "index": 1,
+      "id": "nile_corniche_maadi",
+      "name_ar": "نزلة كورنيش المعادي (أثر النبي)",
+      "name_en": "Maadi Corniche Exit",
+      "km": 2.3,
+      "gps": {
+        "lat": 29.9832,
+        "lon": 31.2465
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "ramp",
+      "elevation": 12.0,
+      "landmarks": [
+        "مستشفى القوات المسلحة بالمعادي",
+        "أبراج عثمان"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "el_moneeb_bridge",
+      "name_ar": "كوبري المنيب العلوي (فوق نهر النيل)",
+      "name_en": "El Moneeb Nile Bridge",
+      "km": 4.1,
+      "gps": {
+        "lat": 29.9894,
+        "lon": 31.2291
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "nile_bridge",
+      "elevation": 22.0,
+      "landmarks": [
+        "نهر النيل",
+        "جزيرة الدهب",
+        "فلوكات النيل",
+        "برج القاهرة في الأفق"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "moneeb_giza",
+      "name_ar": "محطة المنيب – الجيزة",
+      "name_en": "El Moneeb – Giza Interchange",
+      "km": 6.5,
+      "gps": {
+        "lat": 29.9821,
+        "lon": 31.2118
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "metro_hub",
+      "elevation": 12.0,
+      "landmarks": [
+        "محطة مترو المنيب",
+        "موقف المنيب الإقليمي"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "mariouteya_axis",
+      "name_ar": "محور المريوطية (الأهرامات)",
+      "name_en": "El Mariouteya Axis (Pyramids Exit)",
+      "km": 9.2,
+      "gps": {
+        "lat": 29.9886,
+        "lon": 31.1714
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "أهرامات الجيزة",
+        "ترعة المريوطية",
+        "أبو الهول"
+      ]
+    },
+    {
+      "index": 5,
+      "id": "faisal_haram",
+      "name_ar": "نزلة فيصل والهرم",
+      "name_en": "Faisal & Haram Exit",
+      "km": 11.4,
+      "gps": {
+        "lat": 30.0042,
+        "lon": 31.168
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "ramp",
+      "elevation": 12.0,
+      "landmarks": [
+        "شارع فيصل الرئيسي",
+        "شارع الأهرام"
+      ]
+    },
+    {
+      "index": 6,
+      "id": "remaya_alex_desert",
+      "name_ar": "ميدان الرماية – طريق إسكندرية الصحراوي",
+      "name_en": "Remaya & Alex Desert Road",
+      "km": 13.8,
+      "gps": {
+        "lat": 30.0125,
+        "lon": 31.1275
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "المتحف المصري الكبير (GEM)",
+        "فندق مينا هاوس",
+        "المسلة المعلقة"
+      ]
+    },
+    {
+      "index": 7,
+      "id": "saft_el_laban",
+      "name_ar": "محور صفط اللبن (جامعة القاهرة)",
+      "name_en": "Saft El Laban Axis",
+      "km": 17.5,
+      "gps": {
+        "lat": 30.0381,
+        "lon": 31.1782
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "elevated_ramp",
+      "elevation": 12.0,
+      "landmarks": [
+        "جامعة القاهرة",
+        "بولاق الدكرور"
+      ]
+    },
+    {
+      "index": 8,
+      "id": "axis_26_july",
+      "name_ar": "محور 26 يوليو (الشيخ زايد / ميدان لبنان)",
+      "name_en": "26th of July Corridor",
+      "km": 22.0,
+      "gps": {
+        "lat": 30.0689,
+        "lon": 31.1745
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "مدينة الشيخ زايد",
+        "ميدان لبنان",
+        "المهندسين"
+      ]
+    },
+    {
+      "index": 9,
+      "id": "rod_el_farag_axis",
+      "name_ar": "محور روض الفرج (كوبري تحيا مصر)",
+      "name_en": "Rod El Farag Axis",
+      "km": 28.5,
+      "gps": {
+        "lat": 30.1065,
+        "lon": 31.2185
+      },
+      "lanes": 8,
+      "speed_kmh": 100,
+      "type": "cable_stayed_bridge",
+      "elevation": 12.0,
+      "landmarks": [
+        "كوبري تحيا مصر المعلق",
+        "جزيرة الوراق"
+      ]
+    },
+    {
+      "index": 10,
+      "id": "warraq_nile_bridge",
+      "name_ar": "كوبري الوراق (شمال النيل)",
+      "name_en": "El Warraq Nile Bridge",
+      "km": 32.0,
+      "gps": {
+        "lat": 30.125,
+        "lon": 31.238
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "nile_bridge",
+      "elevation": 12.0,
+      "landmarks": [
+        "كورنيش الوراق",
+        "نهر النيل فرع رشيد"
+      ]
+    },
+    {
+      "index": 11,
+      "id": "shubra_el_kheima",
+      "name_ar": "نزلة شبرا الخيمة – طريق إسكندرية الزراعي",
+      "name_en": "Shubra El Kheima & Alex Agri Rd",
+      "km": 36.5,
+      "gps": {
+        "lat": 30.1345,
+        "lon": 31.268
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "محطة شبرا الخيمة",
+        "قصر محمد علي بشبرا"
+      ]
+    },
+    {
+      "index": 12,
+      "id": "mostorod_qalyubia",
+      "name_ar": "نزلة مسطرد – ترعة الإسماعيلية",
+      "name_en": "Mostorod Exit",
+      "km": 43.0,
+      "gps": {
+        "lat": 30.141,
+        "lon": 31.325
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "ramp",
+      "elevation": 12.0,
+      "landmarks": [
+        "كنيسة العذراء بمسطرد",
+        "مجمع بترول مسطرد"
+      ]
+    },
+    {
+      "index": 13,
+      "id": "el_marg_new",
+      "name_ar": "نزلة المرج الجديدة ومؤسسة الزكاة",
+      "name_en": "New El Marg & Zakat Axis",
+      "km": 48.5,
+      "gps": {
+        "lat": 30.152,
+        "lon": 31.368
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "metro_hub",
+      "elevation": 12.0,
+      "landmarks": [
+        "محطة مترو المرج الجديدة",
+        "موقف المرج"
+      ]
+    },
+    {
+      "index": 14,
+      "id": "el_salam_city",
+      "name_ar": "ميدان ومدينة السلام – موقف العاشر",
+      "name_en": "El Salam City & 10th of Ramadan Hub",
+      "km": 54.0,
+      "gps": {
+        "lat": 30.165,
+        "lon": 31.428
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "major_transit_hub",
+      "elevation": 12.0,
+      "landmarks": [
+        "موقف العاشر الجديد",
+        "محطة عدلي منصور التبادلية"
+      ]
+    },
+    {
+      "index": 15,
+      "id": "ismailia_desert",
+      "name_ar": "طريق الإسماعيلية الصحراوي – العبور",
+      "name_en": "Ismailia Desert Road – El Obour",
+      "km": 59.5,
+      "gps": {
+        "lat": 30.148,
+        "lon": 31.472
+      },
+      "lanes": 8,
+      "speed_kmh": 100,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "مدينة العبور",
+        "طريق الإسماعيلية"
+      ]
+    },
+    {
+      "index": 16,
+      "id": "suez_road_nasr_city",
+      "name_ar": "طريق السويس – مدينة نصر – التجمع",
+      "name_en": "Suez Road – New Cairo & Nasr City",
+      "km": 68.0,
+      "gps": {
+        "lat": 30.082,
+        "lon": 31.478
+      },
+      "lanes": 8,
+      "speed_kmh": 100,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "العاصمة الإدارية في الأفق",
+        "البرج الأيقوني",
+        "فندق تيوليب",
+        "بوابة الرحاب"
+      ]
+    },
+    {
+      "index": 17,
+      "id": "moshir_tantawy_axis",
+      "name_ar": "محور المشير طنطاوي – القاهرة الجديدة",
+      "name_en": "El Moshir Tantawy Axis",
+      "km": 76.5,
+      "gps": {
+        "lat": 30.031,
+        "lon": 31.439
+      },
+      "lanes": 8,
+      "speed_kmh": 100,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "مسجد المشير",
+        "ستاد الدفاع الجوي",
+        "كايرو فيستيفال سيتي"
+      ]
+    },
+    {
+      "index": 18,
+      "id": "sokhna_road",
+      "name_ar": "طريق العين السخنة – الدائري الأوسطي",
+      "name_en": "Ain Sokhna Road Interchange",
+      "km": 84.0,
+      "gps": {
+        "lat": 29.988,
+        "lon": 31.398
+      },
+      "lanes": 8,
+      "speed_kmh": 100,
+      "type": "major_interchange",
+      "elevation": 12.0,
+      "landmarks": [
+        "محمية وادي دجلة",
+        "سلسلة جبال المقطم"
+      ]
+    },
+    {
+      "index": 19,
+      "id": "mokattam_cliff",
+      "name_ar": "منحدرات هضبة المقطم والقلعة",
+      "name_en": "Mokattam Hills & Citadel Vista",
+      "km": 92.5,
+      "gps": {
+        "lat": 29.975,
+        "lon": 31.332
+      },
+      "lanes": 7,
+      "speed_kmh": 90,
+      "type": "scenic_elevation",
+      "elevation": 75.0,
+      "landmarks": [
+        "قلعة صلاح الدين الأيوبي",
+        "جامع محمد علي",
+        "متحف الحضارة (NMEC)"
+      ]
+    },
+    {
+      "index": 20,
+      "id": "maadi_loop_complete",
+      "name_ar": "العودة للمعادي والأوتوستراد (اكتملت الدورة 100 كم)",
+      "name_en": "Return to Maadi – Full Loop Completed",
+      "km": 100.0,
+      "gps": {
+        "lat": 29.9678,
+        "lon": 31.2882
+      },
+      "lanes": 8,
+      "speed_kmh": 90,
+      "type": "loop_junction",
+      "elevation": 12.0,
+      "landmarks": [
+        "المعادي الجديدة",
+        "نادي وادي دجلة"
+      ]
+    }
+  ]
+}
